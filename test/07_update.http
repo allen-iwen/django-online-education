@@ -1,0 +1,5 @@
+### 获取更新课程列表
+GET http://localhost:8000/api/update_course/
+
+### 获取更新课程详情
+GET http://localhost:8000/api/update_course/1/

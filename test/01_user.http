@@ -1,0 +1,23 @@
+### 用户注册功能
+POST http://localhost:8000/api/register/
+Content-Type: application/json
+
+{
+    "phone": "18600112346",
+    "password": "123456",
+    "nickname": "test"
+}
+
+### 用户登录功能
+# POST http://localhost:8000/api/login/
+# POST http://185.244.208.15:8000/api/login/
+Content-Type: application/json
+
+{
+    "phone": "18600112346",
+    "password": "123456"
+}
+
+### 获取用户信息
+GET http://localhost:8000/api/user/2/
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjE4NjAwMTEyMzQ2IiwiZXhwIjoxNjkyMjU1OTMwLjgxNjQyOX0.OVo3Udm5vzmEn-qpTulvTPtf5bGsBLWlSDdeNzwTN5I

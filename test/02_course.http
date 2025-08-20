@@ -1,0 +1,22 @@
+### 获取课程分类列表
+# GET http://localhost:8000/api/courses/
+GET http://localhost:8000/api/courses/?page=1&size=5
+### 服务器Django接口
+GET http://192.168.247.131:8000/api/courses/
+### 服务器Nginx接口
+GET http://192.168.247.131:80/api/courses/
+### 网络穿透接口
+GET http://feelinglw.natapp1.cc/api/courses/?page=1&size=5
+
+### 获取课程阶段信息
+GET http://localhost:8000/api/stages/?course=1
+
+
+### 获取课程章节信息
+GET http://localhost:8000/api/chapters/?stage=2
+
+### 获取课程小节信息
+GET http://localhost:8000/api/sections/?chapter=2
+
+### 获取单个阶段详细信息
+GET http://localhost:8000/api/stages/1/

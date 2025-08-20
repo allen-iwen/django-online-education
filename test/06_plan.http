@@ -1,0 +1,5 @@
+### 获取学习计划
+GET http://localhost:8000/api/plan/?course=1
+
+### 获取课程分类班型
+GET http://localhost:8000/api/class_type/?course=6

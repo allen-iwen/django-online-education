@@ -1,0 +1,8 @@
+### 订阅课程
+POST http://localhost:8000/api/user_pay_couser/
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjE4NjAwMTEyMzQ2IiwiZXhwIjoxNjkyNzc0MzY2LjYxMDY2N30.Ezg8hN4Y-0LKCRzIZBmH3iiCVhqlNXgJKf4u4N7MZ0U
+
+{
+    "class_type":2
+}
