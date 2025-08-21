@@ -33,7 +33,7 @@ jobs:
 
       - name: Static analysis & Django checks
         env:
-          DJANGO_SETTINGS_MODULE: bz_edu_project.settings
+          DJANGO_SETTINGS_MODULE: bz_edu_project.settings_ci
         run: |
           python -m compileall .
           python manage.py check
